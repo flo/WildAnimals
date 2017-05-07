@@ -3,7 +3,7 @@
     "mesh" : "adultChicken",
     "heightOffset" : -0.8,
     "material" : "adultChickenSkin",
-    "animation" : "adultChickenLookLeft",
+    "animation" : "adultChickenIdle",
     "loop" : true
   },
   "Behavior" : {
@@ -15,14 +15,18 @@
   },
   "Stand" :{
     "animationPool": [
-      "adultChickenLookLeft"
+      "adultChickenIdle",
+      "adultChickenIdle",
+      "adultChickenIdle",
+      "adultChickenIdleLookLeft",
+      "adultChickenIdleLookRight"
       ]
   },
   "Walk" :{
-    "animationPool": ["adultChickenLookLeft"]
+    "animationPool": ["adultChickenWalk"]
   },
   "Die" :{
-    "animationPool": ["adultChickenLookLeft"]
+    "animationPool": ["adultChickenDeath"]
   },
   "persisted" : true,
   "location" : {},
