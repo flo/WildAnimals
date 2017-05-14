@@ -16,14 +16,11 @@
   "Stand" :{
     "animationPool": [
       "adultChickenIdle",
-      "adultChickenIdle",
-      "adultChickenIdle",
-      "adultChickenIdle",
-      "adultChickenIdle"
+      "adultChickenIdle2"
       ]
   },
   "Walk" :{
-    "animationPool": ["adultChickenIdle"]
+    "animationPool": ["adultChickenWalk"]
   },
   "Die" :{
     "animationPool": ["adultChickenIdle"]
